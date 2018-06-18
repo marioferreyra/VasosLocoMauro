@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: 400px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+a, .azul {
+    color: #1800CC;
+}
+
+.quitar-float {
+    float: none;
+}
+
+.espacio-arriba {
+    margin-top: 25px;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.grande {
+    font-size: 4em;
+}
+
+.verde {
+    color: #44FF33;
+}
+
+.espacio-derecha {
+    margin-right: 2em;
+}
+
+.no-lista {
+    margin: 0px;
+    padding: 0px;
+}
+
+.no-lista li{
+    list-style-type: none;
+}
+
+.se-gris {
+    background-color: #eee;
+}
+
+.padding-largo {
+    padding: 5px 10px;
+}
+
+.inline-block {
+    float: none;
+    display: inline-block;
+    margin-right: -4px; /*secreto XD*/
+}
+
+.vete-arriba {
+    vertical-align: top; /*Solo sirve si esta inline-block*/
+}
+
+.mediano {
+    font-size: 1.5em;
+}
+
+.retraso-1 {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.retraso-2 {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
